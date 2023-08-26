@@ -18,7 +18,7 @@ namespace EcommerceAssesment.Data
                 "Trusted_Connection=True;" +
                 "TrustServerCertificate=True;" +
                 " User Id = sa;" +
-                " Password= @Stockholm01");
+                " Password= ");
         }
 
         public DbSet<Cart> Carts { get; set; }
